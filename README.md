@@ -88,7 +88,7 @@ unzip CRUD-PYTHON-EM-MYSQL.zip
    - Navegue até o diretório onde o `nome-do-arquivo.py` está localizado usando o comando `cd` (por exemplo, `cd C:\Caminho\Para\O\nome-do-arquivo.py`).
    - Execute o script digitando `python nome-do-arquivo.py` e pressionando Enter.
 
-Seguindo esses passos, você poderá executar o seu script Python em um PC zerado, mesmo sem ter o Python instalado anteriormente. Certifique-se de que todas as dependências do script estejam instaladas e que o Python esteja configurado corretamente no seu sistema. Se você não estiver familiarizado com esses passos, confira nosso [curso completo sobre o Python](https://github.com/VILHALVA/CURSO-DE-PYTHON) e [curso compleo de MySQL](https://github.com/VILHALVA/CURSO-DE-MYSQL) para obter orientações detalhadas.
+Seguindo esses passos, você poderá executar o seu script Python em um PC zerado, mesmo sem ter o Python instalado anteriormente. Certifique-se de que todas as dependências do script estejam instaladas e que o Python esteja configurado corretamente no seu sistema. Se você não estiver familiarizado com esses passos, confira nosso [curso completo sobre o Python](https://github.com/VILHALVA/CURSO-DE-PYTHON) e [curso completo de MySQL](https://github.com/VILHALVA/CURSO-DE-MYSQL) para obter orientações detalhadas.
 
 #### O EXECUTAVEL:
 1. **Localize o Arquivo:** Após o download, localize o arquivo executável no seu sistema. Geralmente, os downloads são salvos na pasta "Downloads" do seu computador, mas você pode tê-lo salvo em outro local.
