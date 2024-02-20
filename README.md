@@ -1,5 +1,5 @@
 # CRUD PYTHON EM MYSQL
-🎈GERENCIE O NOME E IDADE DOS USUÁRIOS EM UM ARQUIVO MYSQL.
+🎈GERENCIE O NOME E IDADE DOS USUÁRIOS NA DATABASE MYSQL.
 
 <img src="./IMAGENS/FOTO_1.png" align="center" width="500"> <br>
 <img src="./IMAGENS/FOTO_2.png" align="center" width="500"> <br>
