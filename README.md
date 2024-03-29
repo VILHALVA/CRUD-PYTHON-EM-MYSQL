@@ -21,8 +21,27 @@ O aplicativo fornece um menu intuitivo para o usuário interagir com essas funci
 
 Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar informações de usuários de forma eficiente, como em sistemas de cadastro, administração de usuários em plataformas web, entre outros.
 
-## IMPORTAÇÃO DO BANCO DE DADOS:
-   - Antes de executar o aplicativo, é necessário importar o arquivo `DATABASE.sql`. Se não estiver familiarizado com o processo de importação, [confira este curso](https://github.com/VILHALVA/CURSO-DE-MYSQL) para orientações detalhadas.
+## EXECUTANDO O PROJETO:
+### 1. Importando o Banco de Dados:
+   - Antes de executar o aplicativo, importe o arquivo `DATABASE.sql` fornecido. Se não estiver familiarizado com o processo de importação de um arquivo SQL para o MySQL, você pode conferir [este curso](https://github.com/VILHALVA/CURSO-DE-MYSQL) para orientações detalhadas.
+
+### 2. Configurando a Conexão com o PostgreSQL:
+   - Abra o arquivo `CODIGO.py` e localize a seção onde a conexão com o banco de dados é configurada. Você precisará inserir suas credenciais de conexão neste trecho de código:
+   ```python
+   host='localhost',
+   database='cadastro',
+   user='seu_usuario',
+   password='sua_senha'
+   ```
+
+### 3. Instalando Pacotes Python:
+   - Certifique-se de ter o pacote `psycopg2` instalado. Caso contrário, você pode instalá-lo com o comando:
+   ```bash
+   pip install mysql.connector
+   ```
+
+### 4. Executando o Aplicativo:
+   - Após configurar o banco de dados e as credenciais de conexão, execute o script `CODIGO.py`. Isso iniciará o aplicativo Python que permite adicionar, listar, atualizar e excluir usuários do banco de dados `cadastro`.
 
 ## SAIBA MAIS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
