@@ -35,7 +35,7 @@ Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar
    ```
 
 ### 3. Instalando Pacotes Python:
-   - Certifique-se de ter o pacote `psycopg2` instalado. Caso contrário, você pode instalá-lo com o comando:
+   - Certifique-se de ter o pacote `mysql.connector` instalado. Caso contrário, você pode instalá-lo com o comando:
    ```bash
    pip install mysql.connector
    ```
