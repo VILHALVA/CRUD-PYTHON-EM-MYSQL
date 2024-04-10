@@ -25,7 +25,7 @@ Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar
 ### 1. Importando o Banco de Dados:
    - Antes de executar o aplicativo, importe o arquivo `DATABASE.sql` fornecido. 
 
-### 2. Configurando a Conexão com o PostgreSQL:
+### 2. Configurando a Conexão com o MySQL:
    - Abra o arquivo `CODIGO.py` e localize a seção onde a conexão com o banco de dados é configurada. Você precisará inserir suas credenciais de conexão neste trecho de código:
    ```python
    host='localhost',
