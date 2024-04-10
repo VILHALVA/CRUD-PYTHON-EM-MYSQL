@@ -23,7 +23,7 @@ Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar
 
 ## EXECUTANDO O PROJETO:
 ### 1. Importando o Banco de Dados:
-   - Antes de executar o aplicativo, importe o arquivo `DATABASE.sql` fornecido.
+   - Antes de executar o aplicativo, importe o arquivo `DATABASE.sql` fornecido. 
 
 ### 2. Configurando a Conexão com o PostgreSQL:
    - Abra o arquivo `CODIGO.py` e localize a seção onde a conexão com o banco de dados é configurada. Você precisará inserir suas credenciais de conexão neste trecho de código:
@@ -43,8 +43,13 @@ Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar
 ### 4. Executando o Aplicativo:
    - Após configurar o banco de dados e as credenciais de conexão, execute o script `CODIGO.py`. Isso iniciará o aplicativo Python que permite adicionar, listar, atualizar e excluir usuários do banco de dados `cadastro`.
 
-## SAIBA MAIS:
+## NÃO SABE?
+- Entendemos que para manipular arquivos em muitas linguagens, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
+* [CURSO DE PYTHON](https://github.com/VILHALVA/CURSO-DE-PYTHON)
+* [CURSO DE MYSQL](https://github.com/VILHALVA/CURSO-DE-MYSQL)
+* [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
+
+## CREDITOS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
-- [FAÇA OS NOSSOS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
 
 
