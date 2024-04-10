@@ -23,7 +23,7 @@ Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar
 
 ## EXECUTANDO O PROJETO:
 ### 1. Importando o Banco de Dados:
-   - Antes de executar o aplicativo, importe o arquivo `DATABASE.sql` fornecido. Se não estiver familiarizado com o processo de importação de um arquivo SQL para o MySQL, você pode conferir [este curso](https://github.com/VILHALVA/CURSO-DE-MYSQL) para orientações detalhadas.
+   - Antes de executar o aplicativo, importe o arquivo `DATABASE.sql` fornecido.
 
 ### 2. Configurando a Conexão com o PostgreSQL:
    - Abra o arquivo `CODIGO.py` e localize a seção onde a conexão com o banco de dados é configurada. Você precisará inserir suas credenciais de conexão neste trecho de código:
