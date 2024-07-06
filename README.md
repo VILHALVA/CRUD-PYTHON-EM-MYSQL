@@ -22,10 +22,10 @@ O aplicativo fornece um menu intuitivo para o usuário interagir com essas funci
 Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar informações de usuários de forma eficiente, como em sistemas de cadastro, administração de usuários em plataformas web, entre outros.
 
 ## EXECUTANDO O PROJETO:
-### 1. Importando o Banco de Dados:
-   - Antes de executar o aplicativo, importe o arquivo `DATABASE.sql` fornecido. 
+### 1. IMPORTAÇÃO DO BANCO DE DADOS:
+   - Antes de executar o aplicativo, importe o arquivo `DATABASE.sql` fornecido para o seu banco de dados MySQL. 
 
-### 2. Configurando a Conexão com o MySQL:
+### 2. CONFIGURANDO A CONEXÃO COM O MYSQL:
    - Abra o arquivo `CODIGO.py` e localize a seção onde a conexão com o banco de dados é configurada. Você precisará inserir suas credenciais de conexão neste trecho de código:
    ```python
    host='localhost',
@@ -34,14 +34,21 @@ Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar
    password='sua_senha'
    ```
 
-### 3. Instalando Pacotes Python:
-   - Certifique-se de ter o pacote `mysql.connector` instalado. Caso contrário, você pode instalá-lo com o comando:
+### 3. INTALANDO AS DEPEDÊNCIAS:
+   - Entre no diretório `CODIGO` e execute o comando:
+
    ```bash
-   pip install mysql.connector
+   pip install -r requirements.txt
    ```
 
-### 4. Executando o Aplicativo:
-   - Após configurar o banco de dados e as credenciais de conexão, execute o script `CODIGO.py`. Isso iniciará o aplicativo Python que permite adicionar, listar, atualizar e excluir usuários do banco de dados `cadastro`.
+### 4. EXECUTANDO O APLICATIVO:
+   - Para executar o arquivo Python, utilize o comando abaixo no terminal, dentro do diretório `./CODIGO`:
+
+   ```
+   python CODIGO.py
+   ```
+
+   - Isso iniciará o aplicativo Python que permite adicionar, listar, atualizar e excluir usuários do banco de dados `cadastro`.
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em muitas linguagens, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
