@@ -50,6 +50,30 @@ Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar
 
    - Isso iniciará o aplicativo Python que permite adicionar, listar, atualizar e excluir usuários do banco de dados `cadastro`.
 
+### 5. INTERAGINDO COM APLICATIVO:
+1. **Adicionando um Usuário**:
+   - Selecione a opção `1`.
+   - Digite o nome do usuário e pressione Enter.
+   - Digite a idade do usuário e pressione Enter.
+
+2. **Listando Usuários**:
+   - Selecione a opção `2`.
+   - O programa exibirá a lista de usuários cadastrados.
+
+3. **Atualizando um Usuário**:
+   - Selecione a opção `3`.
+   - Digite o nome do usuário a ser atualizado e pressione Enter.
+   - Digite o novo nome do usuário e pressione Enter.
+   - Digite a nova idade do usuário e pressione Enter.
+
+4. **Excluindo um Usuário**:
+   - Selecione a opção `4`.
+   - Digite o nome do usuário a ser excluído e pressione Enter.
+
+5. **Saindo do Programa**:
+   - Selecione a opção `5`.
+   - O programa exibirá uma mensagem de saída e encerrará a execução.
+
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em muitas linguagens, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
 * [CURSO DE PYTHON](https://github.com/VILHALVA/CURSO-DE-PYTHON)
