@@ -1,6 +1,10 @@
 import mysql.connector
 from mysql.connector import Error
 from time import sleep
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 class Usuario:
     def __init__(self, nome, idade):
@@ -11,10 +15,10 @@ class GerenciadorUsuarios:
     def __init__(self):
         try:
             self.conexao = mysql.connector.connect(
-                host='localhost',
-                database='cadastro',
-                user='root',
-                password=''
+                host=os.getenv('DB_HOST'),
+                database=os.getenv('DB_NAME'),
+                user=os.getenv('DB_USER'),
+                password=os.getenv('DB_PASSWORD')
             )
             if self.conexao.is_connected():
                 self.cursor = self.conexao.cursor()
