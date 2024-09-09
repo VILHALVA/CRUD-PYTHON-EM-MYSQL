@@ -26,7 +26,7 @@ Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar
    - Antes de executar o aplicativo, importe o arquivo `DATABASE.sql` fornecido para o seu banco de dados MySQL. 
 
 ### 2. CONFIGURANDO A CONEXÃO COM O MYSQL:
-    - Certifique-se de substituir `localhost`, `seu_usuario`, e `sua_senha` pelos valores corretos no arquivo `./CODIGO/.env`. O arquivo `.env` deve conter as seguintes variáveis de ambiente:
+   - Certifique-se de substituir `localhost`, `seu_usuario`, e `sua_senha` pelos valores corretos no arquivo `./CODIGO/.env`. O arquivo `.env` deve conter as seguintes variáveis de ambiente:
    ```env
    DB_HOST=localhost
    DB_NAME=cadastro
